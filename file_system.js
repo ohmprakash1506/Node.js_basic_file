@@ -18,7 +18,6 @@ fs.writeFile("test.txt", "Hello world !", (err) => {
 });
 
 //*appeneding content to existing file
-
 fs.appendFile("test.txt", "\n hello there again!", (err) => {
   if (err) {
     console.log(err);
